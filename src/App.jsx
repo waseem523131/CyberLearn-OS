@@ -16,7 +16,7 @@ import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/CyberLearn-OS">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Navigate to="/dashboard" replace />} />
